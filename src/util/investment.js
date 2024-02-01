@@ -23,7 +23,7 @@ export function calculateInvestmentResults({
       annualInvestment: annualInvestment, // investment added in this year
     });
   }
-
+  console.log(annualData);
   return annualData;
 }
 
